@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd stage1 && npm install && npm run build",
+  "outputDirectory": "stage1/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

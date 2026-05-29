@@ -4,7 +4,7 @@
     <div class="max-w-6xl mx-auto bg-white rounded-3xl shadow-xl overflow-hidden">
 
       <img
-        src="../Assets/KCC.jfif"
+        src="../Assets/center.jfif"
         alt="Kigali"
         class="w-full h-[600px] object-cover"
       />
