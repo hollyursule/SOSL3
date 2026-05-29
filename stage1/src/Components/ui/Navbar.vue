@@ -130,6 +130,8 @@ onBeforeUnmount(() => {
       >
         <option value="en">English</option>
         <option value="rw">Kinyarwanda</option>
+        <option value="fra">Français</option>
+        <option value="sw">Kiswahili</option>
       </select>
 
     </div>
