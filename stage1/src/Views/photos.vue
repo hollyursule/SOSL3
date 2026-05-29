@@ -18,7 +18,7 @@
       <img src="../Assets/pk.jfif"
            class="rounded-2xl shadow-lg h-64 w-full object-cover" />
 
-      <img src="../Assets/intore.jfif"
+      <img src="../Assets/Intore.jfif"
            class="rounded-2xl shadow-lg h-64 w-full object-cover" />
 
       <img src="../Assets/hills.jfif"
