@@ -3,6 +3,7 @@ import { RouterLink } from 'vue-router'
 import { onBeforeUnmount, onMounted, ref } from 'vue'
 
 const openMenu = ref(null)
+const selectedLanguage = ref('en')
 
 const toggleMenu = (menu) => {
   openMenu.value = openMenu.value === menu ? null : menu
@@ -45,15 +46,16 @@ onBeforeUnmount(() => {
         Services
       </RouterLink>
 
-      <!-- 🎬 GALLERY DROPDOWN (FIXED) -->
+      <!-- GALLERY DROPDOWN -->
       <div class="relative" @click.stop>
 
         <button
           type="button"
-          class="hover:text-yellow-300"
+          class="flex items-center gap-1 hover:text-yellow-300"
           @click="toggleMenu('gallery')"
         >
           Gallery
+          <span class="text-sm leading-none">v</span>
         </button>
 
         <div
@@ -79,11 +81,12 @@ onBeforeUnmount(() => {
 
       </div>
 
-      <!-- 🌍 DESTINATIONS DROPDOWN (WORKING HOVER) -->
+      <!-- DESTINATIONS DROPDOWN -->
       <div class="relative group">
 
-        <button type="button" class="hover:text-yellow-300">
+        <button type="button" class="flex items-center gap-1 hover:text-yellow-300">
           Destinations
+          <span class="text-sm leading-none">v</span>
         </button>
 
         <div class="absolute left-0 top-full pt-3 hidden group-hover:block z-50">
@@ -117,6 +120,17 @@ onBeforeUnmount(() => {
       <RouterLink to="/contact" class="hover:text-yellow-300" @click="closeMenu">
         Contact
       </RouterLink>
+
+      <label class="sr-only" for="language">Language</label>
+      <select
+        id="language"
+        v-model="selectedLanguage"
+        class="rounded bg-white px-3 py-1 text-sm font-semibold text-green-800 outline-none"
+        @click.stop
+      >
+        <option value="en">English</option>
+        <option value="rw">Kinyarwanda</option>
+      </select>
 
     </div>
   </nav>

@@ -27,7 +27,7 @@ import hillsImage from '../Assets/hills.jfif'
 
       <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
         Welcome To
-        <span class="text-green-400">Tembera U Rwanda</span>
+        <span class="text-green-400">Tembera Rwanda</span>
       </h1>
 
       <p class="text-lg md:text-2xl text-gray-200 leading-relaxed mb-10 max-w-3xl mx-auto">
@@ -241,7 +241,7 @@ import hillsImage from '../Assets/hills.jfif'
       </h2>
 
       <p class="text-xl leading-8 mb-10">
-        Travel with Tembera U Rwanda and create unforgettable memories.
+        Travel with Tembera Rwanda and create unforgettable memories.
       </p>
 
       <RouterLink
