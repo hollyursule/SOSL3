@@ -47,7 +47,7 @@ import { RouterLink } from 'vue-router';
     </div>
     <!--copyright-->
     <div class="border-t border-green-500 mt-8 pt-4 text-center text-sm text-green-300">
-        &copy 2026 Tembera U Rwanda. All rights reserved.
+        &copy; 2026 Tembera U Rwanda by Holly Ursule. All rights reserved.
     </div>
 </footer>
 </template>
