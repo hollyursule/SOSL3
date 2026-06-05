@@ -120,6 +120,9 @@ onBeforeUnmount(() => {
       <RouterLink to="/contact" class="hover:text-yellow-300" @click="closeMenu">
         Contact
       </RouterLink>
+      <RouterLink to="/login" class="hover:text-yellow-300" @click="closeMenu">
+        Login
+        </RouterLink>
 
       <label class="sr-only" for="language">Language</label>
       <select
